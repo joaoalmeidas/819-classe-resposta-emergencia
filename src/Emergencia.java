@@ -156,7 +156,27 @@ public class Emergencia {
 		this.status = status;
 	}
 	
-	
+	public void exibeEmergancia() {
+		
+		System.out.println("Descrição");
+		System.out.println(getDescricao());
+		
+		System.out.println("Localização");
+		System.out.println(getLocal());
+		
+		System.out.println("Data e Hora");
+		System.out.println(getDataEHora());
+		
+		System.out.println("Data e Hora");
+		System.out.println(getNatureza());
+		
+		System.out.println("Tipo");
+		System.out.println(getTipo());
+		
+		System.out.println("Status");
+		System.out.println(getStatus());
+		
+	}
 	
 	
 	
