@@ -36,6 +36,67 @@ public class Emergencia {
 		this.status = Status.COLETANDO_INFORMACOES;
 		
 	}
+
+
+	public String getDescricao() {
+		return descricao;
+	}
+
+
+	public void setDescricao(String descricao) {
+		this.descricao = descricao;
+	}
+
+
+	public String getLocal() {
+		return local;
+	}
+
+
+	public void setLocal(String local) {
+		this.local = local;
+	}
+
+
+	public Date getDataEHora() {
+		return dataEHora;
+	}
+
+
+	public void setDataEHora(Date dataEHora) {
+		this.dataEHora = dataEHora;
+	}
+
+
+	public NaturezaDaEmergencia getNatureza() {
+		return natureza;
+	}
+
+
+	public void setNatureza(NaturezaDaEmergencia natureza) {
+		this.natureza = natureza;
+	}
+
+
+	public Tipo getTipo() {
+		return tipo;
+	}
+
+
+	public void setTipo(Tipo tipo) {
+		this.tipo = tipo;
+	}
+
+
+	public Status getStatus() {
+		return status;
+	}
+
+
+	public void setStatus(Status status) {
+		this.status = status;
+	}
+	
 	
 	
 	
