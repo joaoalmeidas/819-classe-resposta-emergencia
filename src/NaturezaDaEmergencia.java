@@ -1,4 +1,6 @@
 
-public class NaturezaDaEmergencia {
+public enum NaturezaDaEmergencia {
+	
+	ROUBO, BRIGA, ASSALTO, INCENDIO, RESGATEDEANIMAIS, ENCHENTE, ACIDENTEDOMESTICO, ACIDENTEDECARRO;
 
 }

@@ -1,4 +1,6 @@
 
-public class Status {
+public enum Status {
+	
+	COLETANDO_INFORMACOES, PEDIDO_A_CAMINHO, ATENDIMENTO;
 
 }
